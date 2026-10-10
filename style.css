@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #311c48;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#loader{
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    width: 15vw;
+    height: 22.5vw;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+}
+
+#filler {
+    position: absolute;
+    left:0.2%;
+    top: 0.7%;
+    width: 99.62%;
+    height: 98%;
+    overflow: hidden;
+}
+#movable {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+#main {
+    background: #E36771;
+    background: linear-gradient(180deg,rgba(227, 103, 113, 1) 0%, rgba(215, 84, 96, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#text {
+    position: absolute;
+    top: 24%;
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(216, 136, 198);
+    text-align: center;
+
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text p {
+    font-size: 3rem;
+}
+#main img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
