@@ -11,12 +11,13 @@ body {
 }
 
 #loader{
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 40%;
     transform: translate(-50%);
     width: 15vw;
     height: 22.5vw;
+    background-color: #311c48;
 }
 
 img {
@@ -67,4 +68,8 @@ img {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.hidden {
+    display: none;
 }
